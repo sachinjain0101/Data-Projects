@@ -17,7 +17,7 @@ public class HeavyWorkRunnable implements Runnable {
 
 	private void doDBProcessing() throws InterruptedException {
 		System.out.println("Working Hard " + Thread.currentThread().getName());
-		Thread.sleep(10000);
+		Thread.sleep(1000);
 	}
 
 }
