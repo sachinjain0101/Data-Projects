@@ -11,10 +11,10 @@ public class Kicker {
 	public static void main(String[] args) {
 
 		List<String> lines = new LinkedList<String>();
-		for(int i = 0; i<1000 ;i++) {
+		for(int i = 0; i<10 ;i++) {
 			String x = "";
 			for (int j = 0; j<i ;j++) {
-				x=x+i;
+				x=x+j;
 			}
 			lines.add(x);
 		}
